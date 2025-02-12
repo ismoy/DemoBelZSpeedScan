@@ -87,6 +87,7 @@ fun App(context: Any? = null) {
     }
 }
 ```
+### Default Dialog Permissions is the same in Android and IOS
 <table>
   <tr>
     <td>
