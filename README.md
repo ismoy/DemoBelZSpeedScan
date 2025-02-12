@@ -42,7 +42,7 @@ fun App(context: Any? = null) {
     RequestCameraPermission { granted ->
         hasCameraPermission = granted
     }
-      ###OR use your custom Dialog
+      ### OR use your custom Dialog
     // Request Camera Permission (Custom Dialog)
     RequestCameraPermission(
         customDeniedDialog = { onRetry ->
