@@ -87,6 +87,16 @@ fun App(context: Any? = null) {
     }
 }
 ```
+<table>
+  <tr>
+    <td>
+      <img src="https://github.com/ismoy/DemoBelZSpeedScan/blob/resources/denied_permision.png" alt="Imagen 1"/>
+    </td>
+    <td>
+      <img src="https://github.com/ismoy/DemoBelZSpeedScan/blob/resources/settings_dialog.png" alt="Imagen 2"/>
+    </td>
+  </tr>
+</table>
 
 ## Camera Permissions
 
