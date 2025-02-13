@@ -132,6 +132,9 @@ If you don't have an `Info.plist` file, you need to create it. Then, go to `comp
 <key>NSCameraUsageDescription</key>
 <string>We need access to the camera to scan QR codes and barcodes.</string>
 ```
+### Add your Scanner Sound
+If you need emit a sound when the code scan., go to `composeApp/iosMain/resources/beep.mp3` remember respect this exactly name resources/beep.mp3
+
 ## Explanation:
 1. **Imports:** Import necessary classes, including CodeScanner from the library.
 2. **Function:** This function serves as the entry point for using the scanner. The context parameter is crucial for Android integration.
