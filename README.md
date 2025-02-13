@@ -2,6 +2,41 @@
 
 BelZSpeedScan is a lightweight and easy-to-use library for scanning QR codes and barcodes. It supports both Kotlin Multiplatform (KMP) and native Android development, providing a consistent API across platforms.  This allows you to use the same scanning logic in your shared KMP code and seamlessly integrate it into your Android application.
 
+## Demonstrations
+
+### Default Dialog Permissions is the same in Android and IOS
+<table>
+  <tr>
+    <td>
+      <img src="https://github.com/ismoy/DemoBelZSpeedScan/blob/resources/denied_permision.png" alt="Imagen 1"/>
+    </td>
+    <td>
+      <img src="https://github.com/ismoy/DemoBelZSpeedScan/blob/resources/settings_dialog.png" alt="Imagen 2"/>
+    </td>
+  </tr>
+</table>
+### Scanning video on Android
+<table>
+  <tr>
+    <td>
+      <img src="https://github.com/ismoy/DemoBelZSpeedScan/blob/resources/denied_permision.png" alt="Imagen 1"/>
+    </td>
+    <td>
+      <img src="https://github.com/ismoy/DemoBelZSpeedScan/blob/resources/settings_dialog.png" alt="Imagen 2"/>
+    </td>
+  </tr>
+</table>
+### Scanning video on IOS
+<table>
+  <tr>
+    <td>
+      <img src="https://github.com/ismoy/DemoBelZSpeedScan/blob/resources/denied_permision.png" alt="Imagen 1"/>
+    </td>
+    <td>
+      <img src="https://github.com/ismoy/DemoBelZSpeedScan/blob/resources/settings_dialog.png" alt="Imagen 2"/>
+    </td>
+  </tr>
+</table>
 ## Installation
 
 ### Kotlin Multiplatform (KMP)
@@ -87,18 +122,6 @@ fun App(context: Any? = null) {
     }
 }
 ```
-### Default Dialog Permissions is the same in Android and IOS
-<table>
-  <tr>
-    <td>
-      <img src="https://github.com/ismoy/DemoBelZSpeedScan/blob/resources/denied_permision.png" alt="Imagen 1"/>
-    </td>
-    <td>
-      <img src="https://github.com/ismoy/DemoBelZSpeedScan/blob/resources/settings_dialog.png" alt="Imagen 2"/>
-    </td>
-  </tr>
-</table>
-
 ## Camera Permissions
 
 BelZSpeedScan handles camera permissions automatically on Android. However, on iOS, you need to add the camera usage description to your `Info.plist` file.
